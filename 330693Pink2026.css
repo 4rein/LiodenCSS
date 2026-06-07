@@ -4,7 +4,7 @@ Do NOT edit, unless exceptionnal cases*/
 
 @import "FONT";
 
-*{cursor: url(CURSEUR), auto !important;}
+* {cursor: url('https://cdn.cursors-4u.net/css-previews/cute-spinning-flower-red-ed45d2e4-css.webp') 0 0, auto !important;}
 
 body {
 	background: url('https://iili.io/CdNBjvS.jpg') center fixed;
