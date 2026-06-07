@@ -64,11 +64,11 @@ a:hover {
 }
 
 img[src$="//static.lioden.com/img/layout/icon-beetle-silver.png"] {
-    content: url('IMAGE')!important;
+    content: url('x') !important;
 }
 
 img[src$="//static.lioden.com/img/layout/icon-beetle-gold.png"] {
-    content: url('IMAGE')!important; 
+    content: url('x') !important; 
 }
 
 /*Navbar*/
