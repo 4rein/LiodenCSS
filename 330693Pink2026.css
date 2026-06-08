@@ -2,25 +2,14 @@
 Do NOT steal
 Do NOT edit, unless exceptionnal cases*/
 
-@import "FONT";
+@import url('https://fonts.googleapis.com/css2?family=Ledger&family=MonteCarlo&display=swap');
 
 * {cursor: url('https://cdn.cursors-4u.net/css-previews/cute-spinning-flower-red-ed45d2e4-css.webp') 0 0, auto !important;}
 
 body {
 	background: url('https://iili.io/CdNBjvS.jpg') center fixed;
 	background-size: cover;
-	font-family: ;
-	color: ;
-}
-
-.pagedoll {
-	position: fixed;
-	z-index: 100;
-	background: url('') cover no-repeat !important;
-	width: 130px;
-	height: auto;
-	left: 10px;
-	bottom: 2px;
+	font-family: "Ledger", serif;
 }
 
 /*Scrollbar*/
@@ -30,26 +19,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-	background: ; 
+	background: #d1d8e0; 
 }
  
 ::-webkit-scrollbar-thumb {
-	background: ;
-	border-radius: ;
+	background: #b03650;
+	border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: ; 
-}
-
-/*All links*/
-
-a {
-	color: !important;
-}
-
-a:hover {
-	color: !important;
+	background: #3978ac; 
 }
 
 /*Topbar*/
@@ -192,41 +171,44 @@ input[type="submit"]:hover, .bad:hover, #postComment:hover, #btnChatSend:hover, 
 /*Alertes*/
 
 .alert-success {
-	background: ;
-	color: ;
-	border: none;
-	border-radius: ;
-	box-shadow: ;
+	background: rgba(213, 118, 139, .8);
+	color: #140609;
+	border-left: 1px solid #892a3e;
+	border-right: 1px solid #892a3e;
+	border-bottom: 2px dotted #892a3e;
+	border-top: 2px dotted #892a3e;
+	border-radius: 15px;
 }
 
 .alert-success a {
-	color: !important;
+	color: #140609!important;
 }
 
 .alert-success a:hover {
-	color: !important;
+	color: #3978ac!important;
 }
 
 .alert-danger {
-	background: ;
-	color: ;
-	border: none;
-	border-radius: ;
-	box-shadow: ;
+	background: rgba(121, 170, 210, .8);
+	color: #140609;
+	border-left: 1px solid #2d5e86;
+	border-right: 1px solid #2d5e86;
+	border-bottom: 2px dotted #2d5e86;
+	border-top: 2px dotted #2d5e86;
+	border-radius: 15px;
 }
 
 .alert-danger a {
-	color: !important;
+	color: #140609!important;
 }
 
 .alert-danger a:hover {
-	color: !important;
+	color: #b03650!important;
 }
 
 /*Titres*/
 h1 {
-	font-family: ;
-	font-weight: bold;
+	font-family: "MonteCarlo", cursive;
 	font-size: ;
 	text-align: center;
 	color: #255074!important;
@@ -246,44 +228,40 @@ h1:after {
 }
 
 h2 {
-	font-family: ;
-	font-weight: ;
-	font-size: ;
-	text-align: ;
 	color: #140609!important;
 }
 
 h3 {
-	font-family: ;
-	font-weight: ;
-	font-size: ;
-	text-align: ;
 	color: #140609!important;
 }
 
 /*Commentaires*/
 
 #commentBox {
-	background: ;
-	color:  !important;
-	border: ;
-	border-radius: ;
+	background: rgba(209, 216, 224, .4);
+	color: #140609 !important;
+	border-left: 1px solid #2d5e86;
+	border-right: 1px solid #2d5e86;
+	border-bottom: 2px dotted #2d5e86;
+	border-top: 2px dotted #2d5e86;
+	border-radius: 15px;
 }
 
 .comment:nth-child(even) {
-	background: ;
-	color:  !important;
+	background: rgba(179, 190, 203, .4);
 }
 
 .comment:nth-child(odd) {
-	background: ;
-	color:  !important;
+	background: rgba(149, 165, 183, .4);
 }
 
 input#comment {
-	background: # !important;
-	color: ;
-	border: ;
+	background: rgba(209, 216, 224, .4) !important;
+	color: #140609;
+	border-left: 1px solid #2d5e86;
+	border-right: 1px solid #2d5e86;
+	border-bottom: 2px dotted #2d5e86;
+	border-top: 2px dotted #2d5e86;
 }
 
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
@@ -295,7 +273,7 @@ Please do not remove credit
 #lion_image {
 	overflow: hidden;
 	border: none;
-	border-radius: ;
+	border-radius: 100px;
 	box-shadow: none;
 }
 
@@ -426,10 +404,12 @@ display:none;
 /*Account*/
 
 textarea, input, select {
-	background: !important;
-	color: !important;
-	border-radius: ;
-	border: ;
+	background: rgba(209, 216, 224, .4) !important;
+	color: #140609;
+	border-left: 1px solid #2d5e86;
+	border-right: 1px solid #2d5e86;
+	border-bottom: 2px dotted #2d5e86;
+	border-top: 2px dotted #2d5e86;
 }
 
 /*Caves*/
