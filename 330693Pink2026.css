@@ -207,7 +207,7 @@ input[type="submit"]:hover, .bad:hover, #postComment:hover, #btnChatSend:hover, 
 /*Titres*/
 h1 {
 	font-family: "MonteCarlo", cursive;
-	font-size: ;
+	font-size: 45px;
 	text-align: center;
 	color: #255074!important;
 	background: radial-gradient(circle farthest-corner at center center, #752436 0%, #255074 40%);
@@ -246,11 +246,11 @@ h3 {
 }
 
 .comment:nth-child(even) {
-	background: rgba(179, 190, 203, .4);
+	background: rgba(179, 190, 203, .4) !important;
 }
 
 .comment:nth-child(odd) {
-	background: rgba(149, 165, 183, .4);
+	background: rgba(149, 165, 183, .4) !important;;
 }
 
 input#comment {
