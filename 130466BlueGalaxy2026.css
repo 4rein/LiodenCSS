@@ -13,6 +13,15 @@ body {
 	color: #e6f1ff;
 }
 
+.pagedoll {
+	position: fixed;
+	z-index: 100;
+	width: 130px;
+	height: auto;
+	left: 10px;
+	bottom: 2px;
+}
+
 /*Scrollbar*/
 
 ::-webkit-scrollbar {
