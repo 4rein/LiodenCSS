@@ -151,21 +151,19 @@ img[src$="//static.lioden.com/img/layout/icon-beetle-gold.png"] {
 /*Boutons*/
 
 input[type="submit"], .bad, i#postComment, #btnChatSend, #btnToggleSidebarChat, button.button, a.btn.btn-default.button {
-	background: !important;
-	color: !important;
+	background: #b03650!important;
+	color: #f9ebee!important;
 	text-shadow: none;
-	border: !important;
-	border-radius: ;
-	box-shadow: ;
+	border: 2px outset #752436!important;
+	border-radius: 10px;
 }
 
 input[type="submit"]:hover, .bad:hover, #postComment:hover, #btnChatSend:hover, #btnToggleSidebarChat:hover, button.button:hover, a.btn.btn-default.button:hover {
-	background: !important;
-	color: !important;
+	background: #cf637a!important;
+	color: #f9ebee!important;
 	text-shadow: none;
-	border: !important;
-	border-radius: ;
-	box-shadow: ;
+	border: 2px inset #752436!important;
+	border-radius: 10px;
 }
 
 /*Alertes*/
